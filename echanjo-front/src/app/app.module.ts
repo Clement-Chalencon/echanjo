@@ -8,13 +8,15 @@ import { HeaderToolbarComponent } from './header-toolbar/header-toolbar.componen
 import { FooterToolbarComponent } from './footer-toolbar/footer-toolbar.component';
 import { MaterialModule } from './material.module';
 import { HomeComponent } from './home/home.component';
+import { MainComponent } from './main/main.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderToolbarComponent,
     FooterToolbarComponent,
-    HomeComponent
+    HomeComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
